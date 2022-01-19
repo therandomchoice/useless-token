@@ -1,0 +1,31 @@
+{
+  "name": "useless-token",
+  "version": "1.0.0",
+  "description": "Useless ERC-20 token",
+  "main": "",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network ropsten",
+    "test": "npx hardhat test --network hardhat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therandomchoice/useless-token"
+  },
+  "keywords": [
+    "useless",
+    "erc-20"
+  ],
+  "author": "randomchoice",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.8.0"
+  }
+}
